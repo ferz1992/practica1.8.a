@@ -5,9 +5,10 @@
   var velocidadInicial = 0;
   var aceleracion = 20;
   var velocidadFinal = 60;
-  var tiempoParaAlcanzarVelFinal = "no definido" ;
+  
 
-  var tiempoParaAlcanzarVelFinal = velocidadInicial + aceleracion * tiempoParaAlcanzarVelFinal ;
+  var tiempo = velocidadFinal / aceleracion;
 
-  console.log (tiempoParaAlcanzarVelFinal)
+  console.log ( "tiempo en alcanzar velocidad final" + tiempo +"horas");
+
   
